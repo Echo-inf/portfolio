@@ -121,14 +121,6 @@ p {
   background: rgb(160, 126, 34);
   display: flex;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
-}
-
-.myskills {
-  margin-right: 50px;
-  font-size: 18px;
-  font-weight: 500px;
-  cursor: pointer;
-  position: relative;
 }
