@@ -167,4 +167,13 @@ p {
 .skill-contents ul li span {
   color:rgb(66, 54, 19);
   font-size: 14px;
+  font-weight: 400;
+}
+
+.skill-contents {
+  display: none;
+}
+
+.skill-contents.active-tab {
+  display: block;
 }

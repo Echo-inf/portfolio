@@ -45,16 +45,38 @@
         <h2 class="skills-title">Skills</h2>
         <p>Here are some of my skills:</p>
         <div class="skills-list">
-          <p1 class="skill-link active-link" id="skill2">Roblox Lua</p1>
-          <p1 class="skill-link">Python</p1>
-          <p1 class="skill-link">HTML</p1>
-          <p1 class="skill-link">CSS</p1>
-          <p1 class="skill-link">JavaScript</p1>
+          <p1 class="skill-link active-link" id="skill2" onclick="open('lua')">Roblox Lua</p1>
+          <p1 class="skill-link" onclick="open('py')">Python</p1>
+          <p1 class="skill-link" onclick="open('html')">HTML</p1>
+          <p1 class="skill-link" onclick="open('css')">CSS</p1>
+          <p1 class="skill-link" onclick="open('js')">JavaScript</p1>
         </div>
-        <div class="skill-contents">
+        <div class="skill-contents active-tab" id="lua">
           <ul>
-            <li><span>Advanced Scripting</span><br>Making complex scripts</li>
+            <li><span>Advanced Lua</span><br>Making complex scripts</li>
             <li><span>Efficient and Clean</span><br>Scripts that can run on any device</li>
+          </ul>
+        </div>
+        <div class="skill-contents" id="py">
+          <ul>
+            <li><span>Basic Python</span><br>Making basic Python projects</li>
+            <li><span>Simple</span><br>Simple code that's easy</li>
+          </ul>
+        </div>
+        <div class="skill-contents" id="html">
+          <ul>
+            <li><span>Web Development</span><br>Making deployable web apps (including this one!)</li>
+            <li><span>Clean Code</span><br>Clean and optimized code</li>
+          </ul>
+        </div>
+        <div class="skill-contents" id="css">
+          <ul>
+            <li><span>Stylized Web Apps</span><br>Beautiful website designs</li>
+          </ul>
+        </div>
+        <div class="skill-contents" id="js">
+          <ul>
+            <li><span>Simple JavaScript</span><br>Creating simple JavaScript code</li>
           </ul>
         </div>
       </div>
@@ -62,4 +84,6 @@
   </div>
 </div>
 
+<script src="script.js"></script>
 </body>
+</html>
