@@ -5,25 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Echo_inf</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c94958a9bc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="header">
+
+<div id="home">
   <div class="container">
     <nav>
       <img src="images/cropped_circle_image.png" class="logo">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="header-text">
-      <h1>Hi, I'm <span>Echo</span>! Welcome to my portfolio!</h1>
+      <h1>Hi, I'm <span>Echo</span>! Welcome to<br>my portfolio!</h1>
       <p>Scroll down ↓</p>
     </div>
 </div>
+
 <div id="about">
   <div class="container">
     <div class="row">
@@ -45,7 +48,7 @@
         <h2 class="skills-title">Skills</h2>
         <p>Here are some of my skills:</p>
         <div class="skills-list">
-          <p1 class="skill-link active-link" id="skill2" onclick="opentab('lua')">Roblox Lua</p1>
+          <p1 class="skill-link active-link" onclick="opentab('lua')">Roblox Lua</p1>
           <p1 class="skill-link" onclick="opentab('py')">Python</p1>
           <p1 class="skill-link" onclick="opentab('html')">HTML</p1>
           <p1 class="skill-link" onclick="opentab('css')">CSS</p1>
@@ -80,10 +83,65 @@
           </ul>
         </div>
       </div>
+      <div class="about-col-1" id="pic2">
+        <img src="images/programmer-removebg-preview.png">
+      </div>
     </div>
   </div>
 </div>
 
+<div id="projects">
+  <div class="container">
+    <h1 class="about-title">Projects</h1>
+    <div class="projects-list">
+      <div>
+        <i class="fa-brands fa-old-republic"></i>
+        <h2>The Jedi Temple</h2>
+        <p>A Roblox Star Wars Jedi game where players need to rank up through training sessions and obtain powerful powers to become stronger.</p>
+        <a href="https://sites.google.com/view/help-meh/home">Site Link</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-google"></i>
+        <h2>Portfolio Website</h2>
+        <p>This is my portfolio website! Made using HTML, CSS and JavaScript.</p>
+        <a href="#">Site Link</a>
+      </div>
+      <div>
+        <h2>The Jedi Temple</h2>
+        <p>A Star Wars Jedi game where players need to rank up through training sessions and obtain powerful powers to become stronger.</p>
+        <a href="#">Site Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="about-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>lemonsdelicious@gmail.com</p>
+        <p><a href="" target="_blank"><i class="fa-brands fa-discord"></i></a>Echo_inf</p>
+        <div class="social-icons">
+          <a href="https://discordapp.com/users/837238057496346704" target="_blank"><i class="fa-brands fa-discord"></i></a>
+          <a href="https://github.com/Echo-inf" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <div>
+          <h1 class="about-title">Roblox</h1>
+          <p>Avaiable to contact on Roblox for<br>business inquiries</p>
+          <a href="https://www.roblox.com/users/3468162798/profile" target="_blank"><img src="images/roblox-removebg-preview.png" id="rbx1"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Echo_inf. All rights reserved. Thank you for visiting!</p>
+
 <script src="script.js"></script>
+
 </body>
 </html>
