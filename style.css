@@ -130,10 +130,10 @@ p {
   margin: 20px;
 }
 
-.skills-link {
+.skill-link {
   margin-right: 50px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
   cursor: pointer;
   position: relative;
 }
