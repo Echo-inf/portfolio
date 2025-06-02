@@ -131,9 +131,13 @@ p {
 }
 
 .skill-link {
-  margin-right: 100px;
+  margin-right: 50px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
+}
+
+#link1 {
+  margin-right: 150px;
 }
