@@ -1,6 +1,6 @@
-var tablinks = document.getElementsByClassName("skill-link");
-var tabcontents = document.getElementsByClassName("skill-contents");
+var skilllink = document.getElementById("skill-link");
+var skillcontent = document.getElementById("skill-contents");
 
-function opentab(tabname){
-
+function opentab(tabname) {
+    
 }
